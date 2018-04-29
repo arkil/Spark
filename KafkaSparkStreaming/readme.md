@@ -11,7 +11,6 @@ kafka-console-producer --broker-list {list of broker} -- topicA
 
 --> Pass messages in JSON format 
 
-
 * Run jar on server
 
 spark2-submit --class com.org.spark.App SparkStreamingKafka-1.0-SNAPSHOT.jar 
